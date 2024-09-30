@@ -1,0 +1,77 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+  color: black;
+  margin-bottom: 30px;
+  margin-top: 100px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: darkorange;
+  margin-bottom: 30px;
+}
+
+.social-media {
+  position: fixed;
+  top: 100px;
+  right: 35px;
+  background-color: darkgray;
+  padding: 6px;
+}
+
+.social-media img {
+  margin: 2px;
+}
+
+.border {
+  border: 5px solid black;
+  width: 300px;
+  margin: 20px auto;
+  padding: 10px 20px;
+  z-index: 1000;
+}
+
+.favorite-food-container {
+  display: flex;
+}
+
+.favorite-food-img {
+  width: 600px;
+  height: 250px;
+  background-image: url("nasi-lemak.jpg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+.food-explanatory-text {
+  font-size: 16px;
+}
+
+.odd_row {
+  background-color: lightsteelblue;
+}
+
+.even_row {
+  background-color: lightgray;
+}
+
+form {
+  width: 400px;
+  margin: 10px;
+}
+.form-column {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin-bottom: 5px;
+}
+label {
+  text-align: right;
+  padding-right: 10px;
+}
